@@ -395,9 +395,15 @@ Let's talk about implementation
 *  Test should use classes of the same layer as tested
 *  Test may use services from other bundles when needed
 
+```
+Bundle1: Controller -> Service -> Repository -> Entity
+Bundle2: Controller -> Service -> Repository -> Entity
+```
+
+
 ---
 
-ProductServiceTest
+### ProductServiceTest
 
 * can use 
   * `ProductBundle\ProductService`
@@ -467,7 +473,7 @@ ProductServiceTest
 
 ---
 
-## Questions!
+## Thank you!
 
 * **Michael Bodnarchuk** @davert
 * Author of [Codeception](http://codeception.com) Testing Framework
